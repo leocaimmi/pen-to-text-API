@@ -1,5 +1,5 @@
 .textareaResultado{
-    width: 100%; /* Ancho del textarea */
+    width: 70%; /* Ancho del textarea */
     min-height: 150px; /* Altura mínima del textarea */
     padding: 10px; /* Espacio interior */
     border-radius: 5px; /* Bordes redondeados */
