@@ -1,3 +1,14 @@
+
+h2{
+    text-align: center;
+}
+.liPrincipal {
+    display: inline-block;
+    padding: 1rem;
+}
+#fileInput:hover{
+    background-color: gray;
+}
 .textareaResultado{
     width: 70%; /* Ancho del textarea */
     min-height: 150px; /* Altura mínima del textarea */
@@ -7,3 +18,4 @@
     resize: vertical; /* Permitir redimensionar en altura */
     
 }
+
