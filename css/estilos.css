@@ -1,10 +1,49 @@
+:root{
+    --color-principal:rgb(233, 233, 233);
+    --color-footer:rgb(144, 144, 144);
+}
+html body{
+    background-color: var(--color-principal);
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 
+}
+header{
+    background-color: var(--color-footer);
+
+}
 h2{
     text-align: center;
+}
+main{
+    padding: 1rem;
+}
+.section{
+    padding-bottom: 35%;
+}
+.footer{
+    background-color:var(--color-footer);
+    color: white;
+    text-align: right;
+    padding: 1rem 0;
+    
+}
+.footer .icono {
+    width: 20px;  /* Ajusta el tamaño según lo necesites */
+    height: auto;
+    vertical-align: middle;  /* Alinea el ícono con el texto */
+    margin-right: 8px;  /* Espacio entre el ícono y el texto */
 }
 .liPrincipal {
     display: inline-block;
     padding: 1rem;
+   
+}
+.liPrincipal :hover{
+   color: rgb(0, 247, 255);
+   
 }
 #fileInput:hover{
     background-color: gray;
