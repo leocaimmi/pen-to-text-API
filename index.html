@@ -13,22 +13,37 @@
 
     <header>
         <h2>Imagen a texto</h2>
-        
     </header>
     <main>
-        <input type="file" id="fileInput" required />
+        <form>
+        <input type="file" id="fileInput" required/>
         <button id="enviar">Enviar</button>
-
         <p>
             <textarea class="textareaResultado" id="resultado" readonly></textarea>
         </p>
+    </form>
     </main>
-    <footer>
+    <section>
+        <h1>Pen-to-print-API</h1>
+        <article class="section">
+            <label>En esta pagina podemos seleccionar cualquier archivo con texto y este mediante el OCR
+                reconocera los caracteres y los transformara en texto</label>
+        </article>
+    </section>
+    <footer class="footer">
         <nav>
             <ul>
-                <li class="liPrincipal"><a href="https://rapidapi.com/serendi/api/pen-to-print-handwriting-ocr">Pagina de la API</a></li>
-                <li class="liPrincipal"><a href="https://github.com/leocaimmi">GitHub</a></li>
-                <li class="liPrincipal"><a href="https://www.linkedin.com/in/leonardo-caimmi-400549269/">LinkedIn</a></li>
+                <li class="liPrincipal">
+                    <a href="https://rapidapi.com/serendi/api/pen-to-print-handwriting-ocr">
+                        <img src="https://rapidapi.com/hub/_next/image?url=https%3A%2F%2Frapidapi-prod-apis.s3.amazonaws.com%2F4f%2F2fa044a2fc4d5a906e26f46ab10ba8%2F746ed54490257297f9fef4741228ec28.png&w=828&q=75"
+                            alt="API Icon" class="icono">
+                        Pagina de la API
+                    </a>
+                </li>
+                <li class="liPrincipal"><a href="https://github.com/leocaimmi">GitHub</a>
+                </li>
+                <li class="liPrincipal"><a href="https://www.linkedin.com/in/leonardo-caimmi-400549269/">LinkedIn</a>
+                </li>
             </ul>
         </nav>
     </footer>
