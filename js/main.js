@@ -38,6 +38,26 @@ document.addEventListener('DOMContentLoaded', () => {
       alert('Por favor selecciona un archivo.');
     }
   });
+  document.getElementById('formulario').addEventListener('submit', function(event) {
+    event.preventDefault(); // Evita que el formulario se envíe y la página se recargue
+
+    // Aquí puedes agregar la lógica para manejar el archivo seleccionado
+    const fileInput = document.getElementById('fileInput');
+    const archivo = fileInput.files[0];
+
+    // Por ejemplo, mostrar el nombre del archivo en el textarea
+    if (archivo) {
+      if(resultParagraph.lengh>0)  
+      {
+        document.getElementById('resultado').value = resultParagraph.textContent;
+      }else
+      {
+        document.getElementById('resultado').value = "La API se quedo sin pruebas FREE";
+      }
+    } else {
+        document.getElementById('resultado').value = "No se ha seleccionado ningún archivo";
+    }
+});
 });
 
 
